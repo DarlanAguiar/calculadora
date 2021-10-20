@@ -8,7 +8,7 @@ body{
 }
 
 main{
-    
+    position: relative;
     height: 100vh;
     background: radial-gradient( red, rgb(87, 17, 17), black) ;
 }
@@ -32,11 +32,16 @@ main{
     border-radius: 5px;
     width: 25vw;
     height: 50vh;
-    margin: 60px auto;
+    
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-gap: 3px;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .tela{
@@ -69,6 +74,7 @@ div{
     background-color: dimgray;
     border-radius: 2px;
 }
+
 
 
 @media screen and (max-width: 668px) {

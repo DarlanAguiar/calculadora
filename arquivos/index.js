@@ -1,6 +1,6 @@
 function escreve(valor){
     var tela = document.getElementById("visor");
-    console.log(tela)
+    
     tela.innerHTML += valor
 
 }
@@ -16,7 +16,7 @@ function apagarUltimo(){
 }
 function resultado(){
     var tela = document.getElementById("visor").innerHTML;
-    console.log(typeof(tela));
+    
     document.getElementById('visor').innerHTML = eval(tela);
 }
 
