@@ -10,15 +10,15 @@ body{
 main{
     
     height: 100vh;
-    background: radial-gradient(black, red) ;
+    background: radial-gradient( red, rgb(87, 17, 17), black) ;
 }
 
 .cabecalho{
     background-color: rgb(82, 26, 26);
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 2rem;
     padding: .3rem;
-    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.22);
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.611);
 }
 
 .calculadora__titulo{
