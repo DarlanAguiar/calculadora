@@ -53,6 +53,7 @@ main{
     font-size: 1.6rem;
     font-weight: bolder;
     height: 1.6rem;
+    overflow: hidden;
     
     
 }
@@ -82,11 +83,12 @@ div:active{
 
 
 
-@media screen and (max-width: 668px) {
+@media screen and (max-width: 480px) {
     
     .container{
     
         width: 65vw;
+        
     
     }
 
@@ -109,3 +111,10 @@ div:active{
 
 }
 
+@media screen and (max-width: 700px) {
+    .container{
+        height: 85vh;
+
+    }
+    
+}
