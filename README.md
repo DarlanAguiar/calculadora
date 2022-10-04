@@ -3,4 +3,4 @@
 ---
 
 # calculadora
- Aplicando aprendizado em grid layolt css.
+ Aplicando aprendizado Javascript e grid layout css.
