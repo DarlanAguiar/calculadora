@@ -3,4 +3,6 @@
 ---
 
 # calculadora
- Aplicando aprendizado Javascript e grid layout css.
+ Aplicando aprendizado em Javascript e grid layout css.
+ 
+ Deploy - [Site Calculadora](https://darlanaguiar.github.io/calculadora/)
